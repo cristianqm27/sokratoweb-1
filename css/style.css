@@ -424,7 +424,7 @@ p {
 }
 @media (min-width:992px) {
     .home-heading {
-        font-size: 72px;
+        font-size: 62px;
     }
 }
 @media (min-width:768px) and (max-width:992px) {
@@ -1242,6 +1242,9 @@ nav {
 .member-info h4 {
     line-height: .6;
     letter-spacing: -0.6px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
 }
 .member-info h5 {
     font-weight: 700;
@@ -1250,6 +1253,7 @@ nav {
     margin-top: 10px; 
     padding-right: 10px;
     padding-bottom: 10px;  
+    text-align: justify;
 }
 .member-list {
     list-style: none; 
@@ -1364,6 +1368,33 @@ nav {
     -moz-transition: all 0.15s;
     -o-transition: all 0.15s;
     transition: all 0.15s;
+}
+
+img.icon-filosofia {
+    display: block;
+    margin-left: auto;
+    margin-right: auto }
+
+    .svg-icon{
+        width: 14%;
+        margin: 0 auto;
+    }
+    #main {
+      display: -webkit-flex;
+      -webkit-justify-content: space-around;
+      display: flex;
+      justify-content: space-around;
+      ;
+  }
+
+  #main p{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.tama{
+    width: 90%;
+    margin: 0 auto;
 }
 
 /*----- Fun Facts -----*/
